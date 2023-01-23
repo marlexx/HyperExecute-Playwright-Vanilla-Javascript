@@ -2,7 +2,7 @@ const { test } = require('../lambdatest-setup');
 const { expect } = require('@playwright/test');
 
 
-test.describe('test 3s', () => {
+test.describe('test 3', () => {
     test('Test Scenario 3', async ({ page }) => {
 
         await page.goto('https://www.lambdatest.com/selenium-playground');
