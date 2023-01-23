@@ -617,3 +617,806 @@
 {"level":"info","time":"2023-01-20T08:49:17.235+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         2"}
 {"level":"info","time":"2023-01-20T08:49:17.235+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
 {"level":"debug","time":"2023-01-20T08:49:17.482+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-20T09:35:06.738+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-20T09:35:08.219+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-20T09:35:08.219+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-20T09:35:08.219+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-20T09:35:08.219+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-20T09:35:08.219+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-20T09:35:08.617+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-20T09:35:08.618+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-20T09:35:08.618+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-20T09:35:08.618+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-20T09:35:08.618+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-20T09:35:08.618+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-20T09:35:08.618+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-20T09:35:08.619+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-20T09:35:08.619+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"debug","time":"2023-01-20T09:35:08.619+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-20T09:35:08.619+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-20T09:35:09.185+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 14.62 % of your limit. Free trial mins left - 256.14\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-20T09:35:09.185+0100","caller":"core/lifecycle.go:314","msg":"Job ID: b8746373-4fcf-497d-8e56-9c96ac8e89d1"}
+{"level":"debug","time":"2023-01-20T09:35:09.185+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID b8746373-4fcf-497d-8e56-9c96ac8e89d1"}
+{"level":"debug","time":"2023-01-20T09:35:09.188+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-20T09:35:09.200+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-20T09:35:09.201+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-b8746373-4fcf-497d-8e56-9c96ac8e89d1.zip\n"}
+{"level":"debug","time":"2023-01-20T09:35:09.209+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-20T09:35:12.390+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-20T09:35:12.394+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-20T09:35:15.491+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-b8746373-4fcf-497d-8e56-9c96ac8e89d1.zip\n"}
+{"level":"info","time":"2023-01-20T09:35:21.303+0100","caller":"jobmanager/setup.go:129","msg":"Job b8746373-4fcf-497d-8e56-9c96ac8e89d1 has started RUNNING"}
+{"level":"info","time":"2023-01-20T09:35:21.303+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b8746373-4fcf-497d-8e56-9c96ac8e89d1\n"}
+{"level":"debug","time":"2023-01-20T09:35:21.304+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-20T09:35:21.304+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 247b9bc3-6c97-45a5-8198-98a79d6c9a9e"}
+{"level":"debug","time":"2023-01-20T09:35:21.304+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 247b9bc3-6c97-45a5-8198-98a79d6c9a9e"}
+{"level":"debug","time":"2023-01-20T09:35:21.304+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 17a48821-43d1-48a7-9cde-e62bde5aefaf"}
+{"level":"debug","time":"2023-01-20T09:35:21.304+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 17a48821-43d1-48a7-9cde-e62bde5aefaf"}
+{"level":"info","time":"2023-01-20T09:35:22.648+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-20T09:35:22.949+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-20T09:36:04.537+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (38s)\n"}
+{"level":"info","time":"2023-01-20T09:36:08.963+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-20T09:36:17.700+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (51s)\n"}
+{"level":"info","time":"2023-01-20T09:36:22.553+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-20T09:36:29.572+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  tests/test_1.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-20T09:36:36.879+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_3.spec.js (7s)\n"}
+{"level":"info","time":"2023-01-20T09:36:41.944+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-20T09:36:43.042+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (2s)\n"}
+{"level":"debug","time":"2023-01-20T09:36:46.279+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-01-20T09:36:46.280+0100","caller":"core/lifecycle.go:522","msg":"taskId:247b9bc3-6c97-45a5-8198-98a79d6c9a9e has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-01-20T09:36:46.280+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-20T09:36:46.280+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-01-20T09:36:46.280+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-20T09:36:46.281+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-20T09:36:46.281+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-20T09:36:46.281+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-20T09:36:46.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  14s"}
+{"level":"info","time":"2023-01-20T09:36:46.281+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b8746373-4fcf-497d-8e56-9c96ac8e89d1\n"}
+{"level":"info","time":"2023-01-20T09:36:46.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    1m28s"}
+{"level":"info","time":"2023-01-20T09:36:46.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          2"}
+{"level":"info","time":"2023-01-20T09:36:46.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             2m50s"}
+{"level":"info","time":"2023-01-20T09:36:46.282+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         7"}
+{"level":"info","time":"2023-01-20T09:36:46.282+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-20T09:36:46.283+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-20T09:36:46.283+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-20T09:36:46.283+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-20T09:36:46.283+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           66.67%"}
+{"level":"info","time":"2023-01-20T09:36:46.283+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         33.33%"}
+{"level":"info","time":"2023-01-20T09:36:46.284+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-20T09:36:46.284+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-20T09:36:46.284+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2023-01-20T09:36:46.284+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-01-20T09:36:46.526+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-20T09:37:49.521+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-20T09:37:50.913+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-20T09:37:50.913+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-20T09:37:50.913+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-20T09:37:50.913+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-20T09:37:50.914+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-20T09:37:51.083+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-20T09:37:51.083+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-20T09:37:51.083+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-20T09:37:51.083+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-20T09:37:51.083+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-20T09:37:51.083+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-20T09:37:51.084+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-20T09:37:51.084+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-20T09:37:51.084+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"debug","time":"2023-01-20T09:37:51.085+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-20T09:37:51.085+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-20T09:37:51.591+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 15.57 % of your limit. Free trial mins left - 253.30\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-20T09:37:51.591+0100","caller":"core/lifecycle.go:314","msg":"Job ID: d3e1e6d4-b25c-45f2-8c31-677205f5115b"}
+{"level":"debug","time":"2023-01-20T09:37:51.591+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID d3e1e6d4-b25c-45f2-8c31-677205f5115b"}
+{"level":"debug","time":"2023-01-20T09:37:51.591+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-20T09:37:51.611+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-20T09:37:51.612+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-d3e1e6d4-b25c-45f2-8c31-677205f5115b.zip\n"}
+{"level":"debug","time":"2023-01-20T09:37:51.619+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.6 kB"}
+{"level":"debug","time":"2023-01-20T09:37:54.887+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-20T09:37:54.893+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-20T09:37:57.965+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-d3e1e6d4-b25c-45f2-8c31-677205f5115b.zip\n"}
+{"level":"info","time":"2023-01-20T09:38:03.919+0100","caller":"jobmanager/setup.go:129","msg":"Job d3e1e6d4-b25c-45f2-8c31-677205f5115b has started RUNNING"}
+{"level":"info","time":"2023-01-20T09:38:03.919+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d3e1e6d4-b25c-45f2-8c31-677205f5115b\n"}
+{"level":"debug","time":"2023-01-20T09:38:03.921+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-20T09:38:03.921+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 37c97ab6-2ba2-4d82-8381-7dd58cd048b8"}
+{"level":"debug","time":"2023-01-20T09:38:03.921+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 37c97ab6-2ba2-4d82-8381-7dd58cd048b8"}
+{"level":"debug","time":"2023-01-20T09:38:03.921+0100","caller":"jobmanager/setup.go:149","msg":"Task id: f5021e28-2e61-4977-a36f-1bc71230d8cc"}
+{"level":"debug","time":"2023-01-20T09:38:03.921+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: f5021e28-2e61-4977-a36f-1bc71230d8cc"}
+{"level":"info","time":"2023-01-20T09:38:05.101+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-20T09:38:05.402+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-20T09:38:57.538+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (49s)\n"}
+{"level":"info","time":"2023-01-20T09:38:57.823+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (49s)\n"}
+{"level":"info","time":"2023-01-20T09:39:01.999+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-20T09:39:02.274+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-20T09:39:21.295+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (15s)\n"}
+{"level":"info","time":"2023-01-20T09:39:21.574+0100","caller":"terminal/terminal.go:179","msg":"x [2]  tests/test_2.spec.js (15s)\n"}
+{"level":"info","time":"2023-01-20T09:39:27.490+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_3.spec.js (6s)\n"}
+{"level":"info","time":"2023-01-20T09:39:28.049+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-20T09:39:33.386+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (2s)\n"}
+{"level":"debug","time":"2023-01-20T09:39:33.910+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-01-20T09:39:33.910+0100","caller":"core/lifecycle.go:522","msg":"taskId:37c97ab6-2ba2-4d82-8381-7dd58cd048b8 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2023-01-20T09:39:33.912+0100","caller":"core/lifecycle.go:522","msg":"taskId:f5021e28-2e61-4977-a36f-1bc71230d8cc has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-01-20T09:39:33.913+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-20T09:39:33.911+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-01-20T09:39:33.913+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-20T09:39:33.916+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-20T09:39:33.916+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-20T09:39:33.916+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-20T09:39:33.916+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d3e1e6d4-b25c-45f2-8c31-677205f5115b\n"}
+{"level":"info","time":"2023-01-20T09:39:33.915+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  8s"}
+{"level":"info","time":"2023-01-20T09:39:33.920+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    1m30s"}
+{"level":"info","time":"2023-01-20T09:39:33.920+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          2"}
+{"level":"info","time":"2023-01-20T09:39:33.922+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             2m55s"}
+{"level":"info","time":"2023-01-20T09:39:33.922+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         7"}
+{"level":"info","time":"2023-01-20T09:39:33.922+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.923+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.923+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.923+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.924+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.924+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         100.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.924+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.925+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-20T09:39:33.926+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         2"}
+{"level":"info","time":"2023-01-20T09:39:33.926+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-01-20T09:39:34.397+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T11:25:03.788+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T11:25:05.302+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T11:25:05.302+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T11:25:05.302+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T11:25:05.302+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:25:05.303+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:25:05.682+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:25:05.683+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T11:25:05.683+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T11:25:05.683+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T11:25:05.683+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T11:25:05.683+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:25:05.684+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:25:05.684+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:25:05.684+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:25:05.685+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:25:05.685+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T11:25:06.253+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 16.54 % of your limit. Free trial mins left - 250.37\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:25:06.254+0100","caller":"core/lifecycle.go:314","msg":"Job ID: 039c87de-30d4-4621-82fd-b8a077c42dec"}
+{"level":"debug","time":"2023-01-23T11:25:06.254+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID 039c87de-30d4-4621-82fd-b8a077c42dec"}
+{"level":"debug","time":"2023-01-23T11:25:06.255+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:25:06.349+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T11:25:06.350+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-039c87de-30d4-4621-82fd-b8a077c42dec.zip\n"}
+{"level":"debug","time":"2023-01-23T11:25:06.357+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T11:25:09.866+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:25:09.871+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T11:25:13.074+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-039c87de-30d4-4621-82fd-b8a077c42dec.zip\n"}
+{"level":"info","time":"2023-01-23T11:25:18.792+0100","caller":"jobmanager/setup.go:129","msg":"Job 039c87de-30d4-4621-82fd-b8a077c42dec has started RUNNING"}
+{"level":"info","time":"2023-01-23T11:25:18.793+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=039c87de-30d4-4621-82fd-b8a077c42dec\n"}
+{"level":"debug","time":"2023-01-23T11:25:18.793+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T11:25:18.793+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 8bec7753-2fcd-463e-b5d5-c66df8960096"}
+{"level":"debug","time":"2023-01-23T11:25:18.793+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 8bec7753-2fcd-463e-b5d5-c66df8960096"}
+{"level":"debug","time":"2023-01-23T11:25:18.793+0100","caller":"jobmanager/setup.go:149","msg":"Task id: c020ad2b-8b09-46d4-a5ca-02d15c3b6948"}
+{"level":"debug","time":"2023-01-23T11:25:18.793+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: c020ad2b-8b09-46d4-a5ca-02d15c3b6948"}
+{"level":"info","time":"2023-01-23T11:25:31.462+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (14s)\n"}
+{"level":"info","time":"2023-01-23T11:25:52.878+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (35s)\n"}
+{"level":"info","time":"2023-01-23T11:28:00.773+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (2m25s)\n"}
+{"level":"info","time":"2023-01-23T11:28:02.837+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (2m6s)\n"}
+{"level":"info","time":"2023-01-23T11:28:05.411+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:28:07.439+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:28:24.337+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (15s)\n"}
+{"level":"info","time":"2023-01-23T11:28:31.470+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T11:28:56.763+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (45s)\n"}
+{"level":"info","time":"2023-01-23T11:29:03.041+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_3.spec.js (7s)\n"}
+{"level":"error","time":"2023-01-23T11:29:08.785+0100","caller":"jobmanager/setup.go:175","msg":"2023-01-23T11:25:03+01:00    error    ERR::JOB::STS     Job timeout!"}
+{"level":"debug","time":"2023-01-23T11:29:08.785+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-01-23T11:29:08.785+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T11:29:08.785+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T11:29:08.785+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T11:29:08.785+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T11:29:08.785+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T11:29:08.785+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n TIMEOUT \n"}
+{"level":"info","time":"2023-01-23T11:29:08.785+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=039c87de-30d4-4621-82fd-b8a077c42dec\n"}
+{"level":"info","time":"2023-01-23T11:29:08.786+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  40s"}
+{"level":"info","time":"2023-01-23T11:29:08.787+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    3m51s"}
+{"level":"info","time":"2023-01-23T11:29:08.787+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          2"}
+{"level":"info","time":"2023-01-23T11:29:08.787+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             7m4s"}
+{"level":"info","time":"2023-01-23T11:29:08.787+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         7"}
+{"level":"info","time":"2023-01-23T11:29:08.788+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T11:29:08.788+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T11:29:08.788+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T11:29:08.788+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T11:29:08.789+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           33.33%"}
+{"level":"info","time":"2023-01-23T11:29:08.789+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         66.67%"}
+{"level":"info","time":"2023-01-23T11:29:08.789+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T11:29:08.789+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T11:29:08.789+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2023-01-23T11:29:08.789+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"info","time":"2023-01-23T11:29:08.985+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (2s)\n"}
+{"level":"debug","time":"2023-01-23T11:29:09.126+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T11:31:27.128+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T11:31:28.663+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T11:31:28.663+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T11:31:28.664+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T11:31:28.664+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:31:28.664+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:31:29.048+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:31:29.048+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T11:31:29.048+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T11:31:29.048+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T11:31:29.048+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T11:31:29.048+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:31:29.049+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:31:29.050+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:31:29.051+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:31:29.051+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:31:29.051+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T11:31:29.384+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 18.91 % of your limit. Free trial mins left - 243.28\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:31:29.384+0100","caller":"core/lifecycle.go:314","msg":"Job ID: d2534406-18a0-45db-b740-25e86c1724cb"}
+{"level":"debug","time":"2023-01-23T11:31:29.384+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID d2534406-18a0-45db-b740-25e86c1724cb"}
+{"level":"debug","time":"2023-01-23T11:31:29.386+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:31:29.408+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T11:31:29.409+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-d2534406-18a0-45db-b740-25e86c1724cb.zip\n"}
+{"level":"debug","time":"2023-01-23T11:31:29.414+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T11:31:32.626+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:31:32.630+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T11:31:35.751+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-d2534406-18a0-45db-b740-25e86c1724cb.zip\n"}
+{"level":"info","time":"2023-01-23T11:31:41.683+0100","caller":"jobmanager/setup.go:129","msg":"Job d2534406-18a0-45db-b740-25e86c1724cb has started RUNNING"}
+{"level":"info","time":"2023-01-23T11:31:41.684+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d2534406-18a0-45db-b740-25e86c1724cb\n"}
+{"level":"debug","time":"2023-01-23T11:31:41.685+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T11:31:41.685+0100","caller":"jobmanager/setup.go:149","msg":"Task id: d4c94acf-3832-4a96-a0d5-147cb4c00d07"}
+{"level":"debug","time":"2023-01-23T11:31:41.685+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: d4c94acf-3832-4a96-a0d5-147cb4c00d07"}
+{"level":"debug","time":"2023-01-23T11:31:41.685+0100","caller":"jobmanager/setup.go:149","msg":"Task id: c6be3cc6-b2ff-4918-93f3-15167c7a5336"}
+{"level":"debug","time":"2023-01-23T11:31:41.685+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: c6be3cc6-b2ff-4918-93f3-15167c7a5336"}
+{"level":"info","time":"2023-01-23T11:31:42.985+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T11:31:46.444+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (6s)\n"}
+{"level":"info","time":"2023-01-23T11:32:33.979+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (47s)\n"}
+{"level":"info","time":"2023-01-23T11:32:38.635+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:32:51.777+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (1m2s)\n"}
+{"level":"info","time":"2023-01-23T11:32:56.303+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:32:58.892+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T11:33:05.141+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T11:33:45.406+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (44s)\n"}
+{"level":"info","time":"2023-01-23T11:34:21.693+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_3.spec.js (36s)\n"}
+{"level":"error","time":"2023-01-23T11:34:26.672+0100","caller":"jobmanager/setup.go:175","msg":"2023-01-23T11:31:27+01:00    error    ERR::JOB::STS     Job timeout!"}
+{"level":"debug","time":"2023-01-23T11:34:26.672+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-01-23T11:34:26.672+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T11:34:26.672+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n TIMEOUT \n"}
+{"level":"info","time":"2023-01-23T11:34:26.672+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T11:34:26.673+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T11:34:26.673+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T11:34:26.673+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T11:34:26.673+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  1m25s"}
+{"level":"info","time":"2023-01-23T11:34:26.673+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d2534406-18a0-45db-b740-25e86c1724cb\n"}
+{"level":"info","time":"2023-01-23T11:34:26.673+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    2m46s"}
+{"level":"info","time":"2023-01-23T11:34:26.674+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          2"}
+{"level":"info","time":"2023-01-23T11:34:26.674+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             4m10s"}
+{"level":"info","time":"2023-01-23T11:34:26.674+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         7"}
+{"level":"info","time":"2023-01-23T11:34:26.675+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T11:34:26.675+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T11:34:26.675+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T11:34:26.675+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T11:34:26.676+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           33.33%"}
+{"level":"info","time":"2023-01-23T11:34:26.676+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         66.67%"}
+{"level":"info","time":"2023-01-23T11:34:26.677+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T11:34:26.677+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T11:34:26.677+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2023-01-23T11:34:26.678+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"info","time":"2023-01-23T11:34:27.584+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (1s)\n"}
+{"level":"debug","time":"2023-01-23T11:34:27.725+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T11:37:17.451+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T11:37:18.934+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T11:37:18.934+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T11:37:18.934+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T11:37:18.934+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:37:18.935+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:37:19.312+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:37:19.313+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T11:37:19.313+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T11:37:19.313+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T11:37:19.313+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T11:37:19.313+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:37:19.314+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:37:19.315+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:37:19.315+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:37:19.316+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:37:19.316+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T11:37:19.837+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 20.30 % of your limit. Free trial mins left - 239.09\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:37:19.838+0100","caller":"core/lifecycle.go:314","msg":"Job ID: 9ce99acb-aa0c-44f2-a547-ce20cffb591e"}
+{"level":"debug","time":"2023-01-23T11:37:19.838+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID 9ce99acb-aa0c-44f2-a547-ce20cffb591e"}
+{"level":"debug","time":"2023-01-23T11:37:19.839+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:37:19.912+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T11:37:19.915+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-9ce99acb-aa0c-44f2-a547-ce20cffb591e.zip\n"}
+{"level":"debug","time":"2023-01-23T11:37:19.921+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T11:37:23.052+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:37:23.056+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T11:37:26.192+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-9ce99acb-aa0c-44f2-a547-ce20cffb591e.zip\n"}
+{"level":"info","time":"2023-01-23T11:37:32.344+0100","caller":"jobmanager/setup.go:129","msg":"Job 9ce99acb-aa0c-44f2-a547-ce20cffb591e has started RUNNING"}
+{"level":"info","time":"2023-01-23T11:37:32.344+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9ce99acb-aa0c-44f2-a547-ce20cffb591e\n"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 00dfac8b-9cd8-47a4-9398-c4714aa296c9"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 00dfac8b-9cd8-47a4-9398-c4714aa296c9"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:149","msg":"Task id: ecc6bf6b-1f1e-42f9-9b1f-93f602b9ea9a"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: ecc6bf6b-1f1e-42f9-9b1f-93f602b9ea9a"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:149","msg":"Task id: f064e147-842b-452f-8d7b-3978b9b2037e"}
+{"level":"debug","time":"2023-01-23T11:37:32.346+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: f064e147-842b-452f-8d7b-3978b9b2037e"}
+{"level":"info","time":"2023-01-23T11:37:33.689+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T11:37:37.843+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (8s)\n"}
+{"level":"info","time":"2023-01-23T11:39:41.210+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (2m4s)\n"}
+{"level":"info","time":"2023-01-23T11:39:45.830+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T11:40:37.191+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (46s)\n"}
+{"level":"info","time":"2023-01-23T11:40:43.366+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T11:41:04.612+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (7s)\n"}
+{"level":"info","time":"2023-01-23T11:43:12.422+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (2m4s)\n"}
+{"level":"info","time":"2023-01-23T11:43:17.349+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T11:43:31.729+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (5m50s)\n"}
+{"level":"info","time":"2023-01-23T11:43:37.579+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T11:43:59.779+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (17s)\n"}
+{"level":"info","time":"2023-01-23T11:44:06.422+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T11:44:11.137+0100","caller":"terminal/terminal.go:179","msg":"x [3]  tests/test_3.spec.js (50s)\n"}
+{"level":"error","time":"2023-01-23T11:44:17.106+0100","caller":"jobmanager/setup.go:175","msg":"2023-01-23T11:37:17+01:00    error    ERR::JOB::STS     Job timeout!"}
+{"level":"debug","time":"2023-01-23T11:44:17.106+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-01-23T11:44:17.106+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T11:44:17.106+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T11:44:17.106+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T11:44:17.106+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T11:44:17.107+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T11:44:17.106+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n TIMEOUT \n"}
+{"level":"info","time":"2023-01-23T11:44:17.107+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  4m4s"}
+{"level":"info","time":"2023-01-23T11:44:17.107+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=9ce99acb-aa0c-44f2-a547-ce20cffb591e\n"}
+{"level":"info","time":"2023-01-23T11:44:17.107+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    6m45s"}
+{"level":"info","time":"2023-01-23T11:44:17.107+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T11:44:17.108+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             13m3s"}
+{"level":"info","time":"2023-01-23T11:44:17.108+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2023-01-23T11:44:17.108+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T11:44:17.108+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T11:44:17.108+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T11:44:17.109+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T11:44:17.109+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           33.33%"}
+{"level":"info","time":"2023-01-23T11:44:17.109+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         66.67%"}
+{"level":"info","time":"2023-01-23T11:44:17.109+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T11:44:17.110+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T11:44:17.110+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2023-01-23T11:44:17.110+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"info","time":"2023-01-23T11:44:17.343+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-upload (2s)\n"}
+{"level":"debug","time":"2023-01-23T11:44:17.783+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T11:48:16.019+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T11:48:17.504+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T11:48:17.504+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T11:48:17.504+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T11:48:17.504+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:48:17.505+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:48:17.879+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:48:17.880+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T11:48:17.880+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T11:48:17.880+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T11:48:17.880+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T11:48:17.880+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:48:17.880+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:48:17.881+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:48:17.881+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:48:17.881+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:48:17.882+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T11:48:18.391+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 24.67 % of your limit. Free trial mins left - 226.00\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:48:18.392+0100","caller":"core/lifecycle.go:314","msg":"Job ID: d31d2c54-4de2-4901-90a9-5060ee2b6a97"}
+{"level":"debug","time":"2023-01-23T11:48:18.392+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID d31d2c54-4de2-4901-90a9-5060ee2b6a97"}
+{"level":"debug","time":"2023-01-23T11:48:18.393+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:48:18.409+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T11:48:18.410+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-d31d2c54-4de2-4901-90a9-5060ee2b6a97.zip\n"}
+{"level":"debug","time":"2023-01-23T11:48:18.421+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T11:48:21.645+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:48:21.649+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T11:48:24.726+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-d31d2c54-4de2-4901-90a9-5060ee2b6a97.zip\n"}
+{"level":"info","time":"2023-01-23T11:48:30.752+0100","caller":"jobmanager/setup.go:129","msg":"Job d31d2c54-4de2-4901-90a9-5060ee2b6a97 has started RUNNING"}
+{"level":"info","time":"2023-01-23T11:48:30.752+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d31d2c54-4de2-4901-90a9-5060ee2b6a97\n"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 623d2e07-a8f8-40db-9dbd-845206f7664e"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 623d2e07-a8f8-40db-9dbd-845206f7664e"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 3350e5df-c911-4543-9e6c-00c19e53d068"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 3350e5df-c911-4543-9e6c-00c19e53d068"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 8fe15616-63e1-438d-8dc6-33d2e0b35ba8"}
+{"level":"debug","time":"2023-01-23T11:48:30.753+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 8fe15616-63e1-438d-8dc6-33d2e0b35ba8"}
+{"level":"info","time":"2023-01-23T11:48:31.592+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T11:48:31.891+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T11:51:30.786+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (2m55s)\n"}
+{"level":"info","time":"2023-01-23T11:51:31.059+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (2m55s)\n"}
+{"level":"info","time":"2023-01-23T11:51:35.449+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:51:35.733+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T11:51:55.362+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T11:51:55.639+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T11:52:01.711+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T11:52:02.480+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T11:52:09.251+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (9s)\n"}
+{"level":"info","time":"2023-01-23T11:53:10.983+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (59s)\n"}
+{"level":"info","time":"2023-01-23T11:53:15.770+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:53:35.288+0100","caller":"terminal/terminal.go:179","msg":"x [3]  tests/test_3.spec.js (15s)\n"}
+{"level":"debug","time":"2023-01-23T11:53:40.717+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-01-23T11:53:40.717+0100","caller":"core/lifecycle.go:522","msg":"taskId:623d2e07-a8f8-40db-9dbd-845206f7664e has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2023-01-23T11:53:40.718+0100","caller":"core/lifecycle.go:522","msg":"taskId:8fe15616-63e1-438d-8dc6-33d2e0b35ba8 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-01-23T11:53:40.718+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T11:53:40.717+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-01-23T11:53:40.718+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T11:53:40.718+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T11:53:40.718+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T11:53:40.719+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T11:53:40.718+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  1m42s"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d31d2c54-4de2-4901-90a9-5060ee2b6a97\n"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    5m12s"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             8m43s"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T11:53:40.719+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T11:53:40.720+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T11:53:40.720+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T11:53:40.720+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           33.33%"}
+{"level":"info","time":"2023-01-23T11:53:40.720+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         66.67%"}
+{"level":"info","time":"2023-01-23T11:53:40.720+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T11:53:40.720+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T11:53:40.721+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         2"}
+{"level":"info","time":"2023-01-23T11:53:40.721+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-01-23T11:53:40.843+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T11:55:29.162+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T11:55:30.551+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T11:55:30.551+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T11:55:30.551+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T11:55:30.551+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:55:30.551+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T11:55:30.920+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:55:30.920+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T11:55:30.920+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T11:55:30.920+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T11:55:30.920+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T11:55:30.920+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:55:30.920+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:55:30.921+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T11:55:30.921+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:55:30.921+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:55:30.922+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T11:55:31.440+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 27.58 % of your limit. Free trial mins left - 217.25\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T11:55:31.441+0100","caller":"core/lifecycle.go:314","msg":"Job ID: 6008c249-7786-4caf-8f64-2a15c0f0bb43"}
+{"level":"debug","time":"2023-01-23T11:55:31.441+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID 6008c249-7786-4caf-8f64-2a15c0f0bb43"}
+{"level":"debug","time":"2023-01-23T11:55:31.442+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T11:55:31.469+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T11:55:31.470+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-6008c249-7786-4caf-8f64-2a15c0f0bb43.zip\n"}
+{"level":"debug","time":"2023-01-23T11:55:31.479+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T11:55:34.673+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T11:55:34.677+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T11:55:37.766+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-6008c249-7786-4caf-8f64-2a15c0f0bb43.zip\n"}
+{"level":"info","time":"2023-01-23T11:55:43.792+0100","caller":"jobmanager/setup.go:129","msg":"Job 6008c249-7786-4caf-8f64-2a15c0f0bb43 has started RUNNING"}
+{"level":"info","time":"2023-01-23T11:55:43.792+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6008c249-7786-4caf-8f64-2a15c0f0bb43\n"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 0d208a19-aa88-48c4-bcd1-87a69fe10d1f"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 0d208a19-aa88-48c4-bcd1-87a69fe10d1f"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 737bb28e-1384-45b1-b36e-987a3b276aec"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 737bb28e-1384-45b1-b36e-987a3b276aec"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:149","msg":"Task id: c312feed-e225-4bc1-8e43-cc6278019953"}
+{"level":"debug","time":"2023-01-23T11:55:43.793+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: c312feed-e225-4bc1-8e43-cc6278019953"}
+{"level":"info","time":"2023-01-23T11:55:44.576+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T11:55:49.395+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (8s)\n"}
+{"level":"info","time":"2023-01-23T11:57:21.313+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (1m33s)\n"}
+{"level":"info","time":"2023-01-23T11:57:25.857+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T11:57:45.279+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (15s)\n"}
+{"level":"info","time":"2023-01-23T11:57:45.992+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (1m54s)\n"}
+{"level":"info","time":"2023-01-23T11:57:51.032+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:57:51.464+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T11:57:53.628+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T11:58:13.121+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T11:58:19.275+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T11:58:48.502+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (52s)\n"}
+{"level":"info","time":"2023-01-23T11:58:52.627+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T11:59:13.045+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  tests/test_3.spec.js (15s)\n"}
+{"level":"debug","time":"2023-01-23T11:59:18.587+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-01-23T11:59:18.587+0100","caller":"core/lifecycle.go:522","msg":"taskId:0d208a19-aa88-48c4-bcd1-87a69fe10d1f has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-01-23T11:59:18.589+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T11:59:18.588+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-01-23T11:59:18.589+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T11:59:18.589+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T11:59:18.589+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T11:59:18.589+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T11:59:18.589+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  1m30s"}
+{"level":"info","time":"2023-01-23T11:59:18.589+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6008c249-7786-4caf-8f64-2a15c0f0bb43\n"}
+{"level":"info","time":"2023-01-23T11:59:18.589+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    3m36s"}
+{"level":"info","time":"2023-01-23T11:59:18.590+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T11:59:18.590+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             6m11s"}
+{"level":"info","time":"2023-01-23T11:59:18.590+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2023-01-23T11:59:18.590+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T11:59:18.591+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T11:59:18.591+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T11:59:18.591+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T11:59:18.591+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           66.67%"}
+{"level":"info","time":"2023-01-23T11:59:18.592+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         33.33%"}
+{"level":"info","time":"2023-01-23T11:59:18.592+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T11:59:18.592+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T11:59:18.593+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2023-01-23T11:59:18.593+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"info","time":"2023-01-23T11:59:19.277+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-upload (2s)\n"}
+{"level":"debug","time":"2023-01-23T11:59:19.279+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T12:00:30.971+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T12:00:32.483+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T12:00:32.484+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T12:00:32.484+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T12:00:32.484+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T12:00:32.484+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T12:00:32.860+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:00:32.860+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T12:00:32.860+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T12:00:32.860+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T12:00:32.860+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T12:00:32.860+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:00:32.861+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:00:32.861+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:00:32.862+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:00:32.862+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:00:32.862+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T12:00:33.454+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 29.66 % of your limit. Free trial mins left - 211.03\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:00:33.455+0100","caller":"core/lifecycle.go:314","msg":"Job ID: c71ee8b4-1d54-4c8d-a922-7feb94a40cc1"}
+{"level":"debug","time":"2023-01-23T12:00:33.455+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID c71ee8b4-1d54-4c8d-a922-7feb94a40cc1"}
+{"level":"debug","time":"2023-01-23T12:00:33.455+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:00:33.470+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T12:00:33.471+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-c71ee8b4-1d54-4c8d-a922-7feb94a40cc1.zip\n"}
+{"level":"debug","time":"2023-01-23T12:00:33.478+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T12:00:36.688+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:00:36.694+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T12:00:39.799+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-c71ee8b4-1d54-4c8d-a922-7feb94a40cc1.zip\n"}
+{"level":"info","time":"2023-01-23T12:00:45.579+0100","caller":"jobmanager/setup.go:129","msg":"Job c71ee8b4-1d54-4c8d-a922-7feb94a40cc1 has started RUNNING"}
+{"level":"info","time":"2023-01-23T12:00:45.580+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c71ee8b4-1d54-4c8d-a922-7feb94a40cc1\n"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 0c507660-ce13-42bb-9288-3648646a29f5"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 0c507660-ce13-42bb-9288-3648646a29f5"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 83117a9d-b2d8-4d31-b910-7db5757b75a8"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 83117a9d-b2d8-4d31-b910-7db5757b75a8"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 111d8bb6-1aee-4314-a720-826a92d3077f"}
+{"level":"debug","time":"2023-01-23T12:00:45.581+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 111d8bb6-1aee-4314-a720-826a92d3077f"}
+{"level":"info","time":"2023-01-23T12:00:46.841+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T12:00:50.296+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (7s)\n"}
+{"level":"info","time":"2023-01-23T12:02:49.915+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (2m0s)\n"}
+{"level":"info","time":"2023-01-23T12:02:50.196+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (1m56s)\n"}
+{"level":"info","time":"2023-01-23T12:02:54.627+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T12:02:55.042+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T12:03:15.648+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (17s)\n"}
+{"level":"info","time":"2023-01-23T12:03:16.077+0100","caller":"terminal/terminal.go:179","msg":"x [1]  tests/test_1.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T12:03:21.856+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T12:03:22.594+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T12:03:23.782+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T12:04:07.097+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (40s)\n"}
+{"level":"info","time":"2023-01-23T12:04:11.469+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T12:04:31.438+0100","caller":"terminal/terminal.go:179","msg":"x [3]  tests/test_3.spec.js (16s)\n"}
+{"level":"debug","time":"2023-01-23T12:04:35.536+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-01-23T12:04:35.536+0100","caller":"core/lifecycle.go:522","msg":"taskId:0c507660-ce13-42bb-9288-3648646a29f5 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2023-01-23T12:04:35.536+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-01-23T12:04:35.536+0100","caller":"core/lifecycle.go:522","msg":"taskId:111d8bb6-1aee-4314-a720-826a92d3077f has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-01-23T12:04:35.537+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T12:04:35.537+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  1m20s"}
+{"level":"info","time":"2023-01-23T12:04:35.537+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    3m52s"}
+{"level":"info","time":"2023-01-23T12:04:35.537+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T12:04:35.538+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T12:04:35.538+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T12:04:35.538+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T12:04:35.537+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T12:04:35.538+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=c71ee8b4-1d54-4c8d-a922-7feb94a40cc1\n"}
+{"level":"info","time":"2023-01-23T12:04:35.538+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             6m29s"}
+{"level":"info","time":"2023-01-23T12:04:35.539+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2023-01-23T12:04:35.539+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T12:04:35.539+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T12:04:35.540+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T12:04:35.540+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T12:04:35.540+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           33.33%"}
+{"level":"info","time":"2023-01-23T12:04:35.540+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         66.67%"}
+{"level":"info","time":"2023-01-23T12:04:35.540+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T12:04:35.541+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T12:04:35.541+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         2"}
+{"level":"info","time":"2023-01-23T12:04:35.541+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-01-23T12:04:36.579+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T12:05:33.072+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T12:05:34.587+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T12:05:34.587+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T12:05:34.587+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T12:05:34.587+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T12:05:34.587+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_autosplits.yaml"}
+{"level":"debug","time":"2023-01-23T12:05:34.967+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:05:34.968+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T12:05:34.968+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T12:05:34.968+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T12:05:34.968+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T12:05:34.968+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:05:34.968+0100","caller":"models/HypertestYamlConfig.go:229","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:05:34.968+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:05:34.969+0100","caller":"models/HypertestYamlConfig.go:272","msg":"Concurrency:    \u001b[36m3\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:05:34.969+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:05:34.969+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T12:05:35.484+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 31.83 % of your limit. Free trial mins left - 204.52\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:05:35.485+0100","caller":"core/lifecycle.go:314","msg":"Job ID: 278dc875-0b4a-4ff4-ab85-d0db20fc869f"}
+{"level":"debug","time":"2023-01-23T12:05:35.485+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID 278dc875-0b4a-4ff4-ab85-d0db20fc869f"}
+{"level":"debug","time":"2023-01-23T12:05:35.486+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:05:35.505+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T12:05:35.506+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-278dc875-0b4a-4ff4-ab85-d0db20fc869f.zip\n"}
+{"level":"debug","time":"2023-01-23T12:05:35.512+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T12:05:38.687+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:05:38.694+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.2 kB"}
+{"level":"debug","time":"2023-01-23T12:05:41.851+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-278dc875-0b4a-4ff4-ab85-d0db20fc869f.zip\n"}
+{"level":"info","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:129","msg":"Job 278dc875-0b4a-4ff4-ab85-d0db20fc869f has started RUNNING"}
+{"level":"info","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=278dc875-0b4a-4ff4-ab85-d0db20fc869f\n"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:149","msg":"Task id: b2ea4e76-7854-40d7-8ec5-5869434174c4"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b2ea4e76-7854-40d7-8ec5-5869434174c4"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:149","msg":"Task id: d91ed7b0-04ee-4010-bf75-74ecd08b8217"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: d91ed7b0-04ee-4010-bf75-74ecd08b8217"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 3068aebc-197a-49f0-9584-a7e87713b4ed"}
+{"level":"debug","time":"2023-01-23T12:05:48.014+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 3068aebc-197a-49f0-9584-a7e87713b4ed"}
+{"level":"info","time":"2023-01-23T12:05:54.136+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (8s)\n"}
+{"level":"info","time":"2023-01-23T12:06:01.163+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (15s)\n"}
+{"level":"info","time":"2023-01-23T12:07:39.106+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (1m42s)\n"}
+{"level":"info","time":"2023-01-23T12:07:43.874+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2023-01-23T12:08:03.020+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  tests/test_1.spec.js (14s)\n"}
+{"level":"info","time":"2023-01-23T12:08:08.825+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T12:08:18.882+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (11s)\n"}
+{"level":"info","time":"2023-01-23T12:09:53.221+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (3m49s)\n"}
+{"level":"info","time":"2023-01-23T12:09:58.107+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T12:10:19.128+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  tests/test_2.spec.js (15s)\n"}
+{"level":"info","time":"2023-01-23T12:10:26.264+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T12:12:03.443+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (3m41s)\n"}
+{"level":"info","time":"2023-01-23T12:12:08.249+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  discovery (2s)\n"}
+{"level":"info","time":"2023-01-23T12:12:30.189+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  tests/test_3.spec.js (18s)\n"}
+{"level":"info","time":"2023-01-23T12:12:37.179+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-upload (2s)\n"}
+{"level":"debug","time":"2023-01-23T12:12:37.791+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-01-23T12:12:37.791+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T12:12:37.791+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T12:12:37.792+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T12:12:37.792+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T12:12:37.792+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T12:12:37.791+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n COMPLETED \n"}
+{"level":"info","time":"2023-01-23T12:12:37.792+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=278dc875-0b4a-4ff4-ab85-d0db20fc869f\n"}
+{"level":"info","time":"2023-01-23T12:12:37.792+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  4m29s"}
+{"level":"info","time":"2023-01-23T12:12:37.793+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    6m50s"}
+{"level":"info","time":"2023-01-23T12:12:37.793+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T12:12:37.793+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             11m29s"}
+{"level":"info","time":"2023-01-23T12:12:37.794+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         9"}
+{"level":"info","time":"2023-01-23T12:12:37.794+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.794+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.795+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.795+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.795+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           100.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.795+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.795+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.795+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T12:12:37.796+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2023-01-23T12:12:37.796+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-01-23T12:12:38.028+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T12:15:51.114+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T12:15:52.531+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T12:15:52.531+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T12:15:52.531+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T12:15:52.531+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2023-01-23T12:15:52.532+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2023-01-23T12:15:52.909+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:15:52.910+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T12:15:52.910+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T12:15:52.910+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T12:15:52.910+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T12:15:52.910+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:15:52.911+0100","caller":"models/HypertestYamlConfig.go:231","msg":"Mode:    \u001b[36mmatrix\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:15:52.912+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:15:52.912+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:15:52.912+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T12:15:53.246+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 35.66 % of your limit. Free trial mins left - 193.02\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:15:53.246+0100","caller":"core/lifecycle.go:314","msg":"Job ID: ad02b5ad-b926-4289-b9eb-def035182578"}
+{"level":"debug","time":"2023-01-23T12:15:53.246+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID ad02b5ad-b926-4289-b9eb-def035182578"}
+{"level":"debug","time":"2023-01-23T12:15:53.248+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:15:53.266+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T12:15:53.267+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-ad02b5ad-b926-4289-b9eb-def035182578.zip\n"}
+{"level":"debug","time":"2023-01-23T12:15:53.275+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 202.5 kB"}
+{"level":"debug","time":"2023-01-23T12:15:56.407+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:15:56.411+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.1 kB"}
+{"level":"debug","time":"2023-01-23T12:15:59.598+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-ad02b5ad-b926-4289-b9eb-def035182578.zip\n"}
+{"level":"info","time":"2023-01-23T12:16:05.289+0100","caller":"jobmanager/setup.go:129","msg":"Job ad02b5ad-b926-4289-b9eb-def035182578 has started RUNNING"}
+{"level":"info","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ad02b5ad-b926-4289-b9eb-def035182578\n"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 5db6d765-830b-4536-b90a-6c0bdd93a061"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 5db6d765-830b-4536-b90a-6c0bdd93a061"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:149","msg":"Task id: b6b37847-bb43-4ea7-9d9c-9374fbcf22b0"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b6b37847-bb43-4ea7-9d9c-9374fbcf22b0"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:149","msg":"Task id: b4fa5f7c-b8c4-4a17-a625-3440b87ed318"}
+{"level":"debug","time":"2023-01-23T12:16:05.290+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: b4fa5f7c-b8c4-4a17-a625-3440b87ed318"}
+{"level":"info","time":"2023-01-23T12:16:06.985+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T12:16:07.304+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T12:16:59.343+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (49s)\n"}
+{"level":"info","time":"2023-01-23T12:17:04.027+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (54s)\n"}
+{"level":"info","time":"2023-01-23T12:17:20.015+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  npx playwright test tests/test_2.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T12:17:23.900+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  npx playwright test tests/test_3.spec.js (16s)\n"}
+{"level":"info","time":"2023-01-23T12:17:25.880+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T12:17:28.307+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (3s)\n"}
+{"level":"info","time":"2023-01-23T12:17:29.874+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (2s)\n"}
+{"level":"info","time":"2023-01-23T12:18:12.873+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (42s)\n"}
+{"level":"info","time":"2023-01-23T12:18:32.683+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  npx playwright test tests/test_1.spec.js (15s)\n"}
+{"level":"debug","time":"2023-01-23T12:18:35.277+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"debug","time":"2023-01-23T12:18:35.277+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T12:18:35.277+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T12:18:35.278+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T12:18:35.278+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T12:18:35.278+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T12:18:35.277+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n COMPLETED \n"}
+{"level":"info","time":"2023-01-23T12:18:35.279+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  1m15s"}
+{"level":"info","time":"2023-01-23T12:18:35.278+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=ad02b5ad-b926-4289-b9eb-def035182578\n"}
+{"level":"info","time":"2023-01-23T12:18:35.279+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    2m34s"}
+{"level":"info","time":"2023-01-23T12:18:35.279+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T12:18:35.280+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             3m58s"}
+{"level":"info","time":"2023-01-23T12:18:35.280+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         6"}
+{"level":"info","time":"2023-01-23T12:18:35.280+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.280+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.280+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           100.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2023-01-23T12:18:35.281+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"debug","time":"2023-01-23T12:18:36.129+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-01-23T12:19:25.089+0100","caller":"cmd/bin.go:169","msg":"HyperExecute cli version: 0.2.43"}
+{"level":"debug","time":"2023-01-23T12:19:26.573+0100","caller":"core/lifecycle.go:106","msg":"Upstream version: {Name: Min:0.2.43 Max:0.2.43} "}
+{"level":"debug","time":"2023-01-23T12:19:26.573+0100","caller":"core/lifecycle.go:123","msg":"Setting environment"}
+{"level":"debug","time":"2023-01-23T12:19:26.573+0100","caller":"core/lifecycle.go:129","msg":"Parsing config"}
+{"level":"debug","time":"2023-01-23T12:19:26.573+0100","caller":"yamlconfigmanager/setup.go:362","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2023-01-23T12:19:26.573+0100","caller":"yamlconfigmanager/setup.go:66","msg":"using hyperexecute config from : yaml/win/.hyperexecute_matrix.yaml"}
+{"level":"debug","time":"2023-01-23T12:19:26.778+0100","caller":"yamlconfigmanager/setup.go:1484","msg":"Autodetecting test type in files of path : C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:19:26.778+0100","caller":"yamlconfigmanager/setup.go:1526","msg":"File in which test type is detected - C:\\HyperExecute-Playwright-Vanilla-Javascript/package.json"}
+{"level":"debug","time":"2023-01-23T12:19:26.778+0100","caller":"yamlconfigmanager/setup.go:1527","msg":"Pre command in which test type is detected - npx playwright install"}
+{"level":"debug","time":"2023-01-23T12:19:26.778+0100","caller":"yamlconfigmanager/setup.go:307","msg":"Automatic test type detected - playwright"}
+{"level":"debug","time":"2023-01-23T12:19:26.778+0100","caller":"yamlconfigmanager/setup.go:315","msg":"Tunnel: false"}
+{"level":"info","time":"2023-01-23T12:19:26.779+0100","caller":"models/HypertestYamlConfig.go:225","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:19:26.779+0100","caller":"models/HypertestYamlConfig.go:231","msg":"Mode:    \u001b[36mmatrix\u001b[0m"}
+{"level":"info","time":"2023-01-23T12:19:26.780+0100","caller":"models/HypertestYamlConfig.go:268","msg":"Runson:    \u001b[36m${matrix.os}\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:19:26.780+0100","caller":"filevalidator/setup.go:51","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:19:26.780+0100","caller":"filevalidator/setup.go:55","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2023-01-23T12:19:27.596+0100","caller":"core/lifecycle.go:281","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 36.99 % of your limit. Free trial mins left - 189.03\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2023-01-23T12:19:27.596+0100","caller":"core/lifecycle.go:314","msg":"Job ID: a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf"}
+{"level":"debug","time":"2023-01-23T12:19:27.596+0100","caller":"core/lifecycle.go:320","msg":"User has provided playwright as test type for the job with ID a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf"}
+{"level":"debug","time":"2023-01-23T12:19:27.597+0100","caller":"archivemanager/setup.go:175","msg":"Creating archive of target directory: C:\\HyperExecute-Playwright-Vanilla-Javascript"}
+{"level":"debug","time":"2023-01-23T12:19:27.620+0100","caller":"archivemanager/setup.go:379","msg":"Zip file size: 194KB"}
+{"level":"debug","time":"2023-01-23T12:19:27.622+0100","caller":"core/lifecycle.go:429","msg":"Archive location: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf.zip\n"}
+{"level":"debug","time":"2023-01-23T12:19:27.628+0100","caller":"receptionmanager/setup.go:138","msg":"Payload size: 204.3 kB"}
+{"level":"debug","time":"2023-01-23T12:19:31.015+0100","caller":"receptionmanager/setup.go:204","msg":"Uploading yaml : C:\\HyperExecute-Playwright-Vanilla-Javascript\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2023-01-23T12:19:31.020+0100","caller":"receptionmanager/setup.go:217","msg":"Payload size: 1.1 kB"}
+{"level":"debug","time":"2023-01-23T12:19:34.160+0100","caller":"core/lifecycle.go:455","msg":"Successfully deleted code archive: C:\\HyperExecute-Playwright-Vanilla-Javascript\\hyperexecute-code-a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf.zip\n"}
+{"level":"info","time":"2023-01-23T12:19:40.387+0100","caller":"jobmanager/setup.go:129","msg":"Job a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf has started RUNNING"}
+{"level":"info","time":"2023-01-23T12:19:40.387+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf\n"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:149","msg":"Task id: f4b1eddd-feaa-4363-9228-2cd9e0f742bf"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: f4b1eddd-feaa-4363-9228-2cd9e0f742bf"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 482634dd-a839-432e-807d-eab41b9e2dde"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 482634dd-a839-432e-807d-eab41b9e2dde"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:149","msg":"Task id: 672cdf6c-f905-465a-b4c6-251c97aa5234"}
+{"level":"debug","time":"2023-01-23T12:19:40.388+0100","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 672cdf6c-f905-465a-b4c6-251c97aa5234"}
+{"level":"info","time":"2023-01-23T12:19:45.325+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-download (7s)\n"}
+{"level":"info","time":"2023-01-23T12:19:45.612+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-download (7s)\n"}
+{"level":"info","time":"2023-01-23T12:21:34.919+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  pre (1m47s)\n"}
+{"level":"info","time":"2023-01-23T12:21:35.356+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  pre (1m47s)\n"}
+{"level":"info","time":"2023-01-23T12:21:42.703+0100","caller":"terminal/terminal.go:179","msg":"x [2]  npx playwright test tests/test_2.spec.js (3s)\n"}
+{"level":"info","time":"2023-01-23T12:21:43.123+0100","caller":"terminal/terminal.go:179","msg":"x [1]  npx playwright test tests/test_3.spec.js (3s)\n"}
+{"level":"info","time":"2023-01-23T12:21:48.761+0100","caller":"terminal/terminal.go:179","msg":"✔ [1]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T12:21:49.040+0100","caller":"terminal/terminal.go:179","msg":"✔ [2]  cache-upload (1s)\n"}
+{"level":"info","time":"2023-01-23T12:21:54.459+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-download (6s)\n"}
+{"level":"info","time":"2023-01-23T12:23:26.715+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  pre (1m29s)\n"}
+{"level":"info","time":"2023-01-23T12:23:34.606+0100","caller":"terminal/terminal.go:179","msg":"x [3]  npx playwright test tests/test_1.spec.js (3s)\n"}
+{"level":"debug","time":"2023-01-23T12:23:40.130+0100","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2023-01-23T12:23:40.130+0100","caller":"core/lifecycle.go:522","msg":"taskId:f4b1eddd-feaa-4363-9228-2cd9e0f742bf has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2023-01-23T12:23:40.130+0100","caller":"jobmanager/JobSummaryManager.go:38","msg":"\n FAILED \n"}
+{"level":"info","time":"2023-01-23T12:23:40.131+0100","caller":"core/lifecycle.go:522","msg":"taskId:482634dd-a839-432e-807d-eab41b9e2dde has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2023-01-23T12:23:40.131+0100","caller":"core/lifecycle.go:522","msg":"taskId:672cdf6c-f905-465a-b4c6-251c97aa5234 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2023-01-23T12:23:40.132+0100","caller":"core/lifecycle.go:595","msg":"Context cancelled"}
+{"level":"info","time":"2023-01-23T12:23:40.131+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Test Execution Time:                  0s"}
+{"level":"info","time":"2023-01-23T12:23:40.132+0100","caller":"core/lifecycle.go:598","msg":"Stopping pipeline gracefully"}
+{"level":"debug","time":"2023-01-23T12:23:40.132+0100","caller":"core/lifecycle.go:601","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-01-23T12:23:40.132+0100","caller":"core/lifecycle.go:602","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-01-23T12:23:40.132+0100","caller":"core/lifecycle.go:604","msg":"All goroutines exited"}
+{"level":"info","time":"2023-01-23T12:23:40.132+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Job Duration Time:                    4m0s"}
+{"level":"info","time":"2023-01-23T12:23:40.132+0100","caller":"jobmanager/setup.go:367","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a7f3d4f0-22a5-421c-b81c-e0ef2ffb75bf\n"}
+{"level":"info","time":"2023-01-23T12:23:40.132+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Tasks:                          3"}
+{"level":"info","time":"2023-01-23T12:23:40.133+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Cumulative Time Consumed:             6m9s"}
+{"level":"info","time":"2023-01-23T12:23:40.133+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Total Stages:                         6"}
+{"level":"info","time":"2023-01-23T12:23:40.133+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.133+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.133+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.133+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.134+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.134+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed test stage percentage:         100.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.134+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.134+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2023-01-23T12:23:40.134+0100","caller":"jobmanager/JobSummaryManager.go:97","msg":"    Failed Tasks:                         3"}
+{"level":"info","time":"2023-01-23T12:23:40.134+0100","caller":"jobmanager/JobSummaryManager.go:42","msg":""}
+{"level":"info","time":"2023-01-23T12:23:40.749+0100","caller":"terminal/terminal.go:179","msg":"✔ [3]  cache-upload (1s)\n"}
+{"level":"debug","time":"2023-01-23T12:23:41.173+0100","caller":"cmd/bin.go:204","msg":"main: all goroutines have finished."}

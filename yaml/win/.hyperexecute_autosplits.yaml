@@ -7,10 +7,11 @@ runson: win
 autosplit: true
 retryOnFailure: false
 maxRetries: 1
-concurrency: 2
+concurrency: 3
 pre:
   - npm install
   - npx playwright install
+  - npx playwright install-deps 
 cacheKey: '{{ checksum "package-lock.json" }}'
 cacheDirectories:
   - node_modules
